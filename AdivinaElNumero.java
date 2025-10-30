@@ -19,8 +19,8 @@ public class AdivinaElNumero {
             if (intento > secreto) {
                 System.out.println("Menor");
             }
+            sc.close();
         }
-        sc.close();
         System.out.println("Acertaste en " + intentos + " intentos, el número era " + secreto);
         
         
